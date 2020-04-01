@@ -16,6 +16,6 @@ CERTSPATH=$HOME/Documents/test
 ```
 ./generate.sh
 ```
-![alt text](https://raw.githubusercontent.com/oleksiivelychko/xdebug-dockerized/master/screens/screen_1.png)
+![alt text](https://raw.githubusercontent.com/oleksiivelychko/generate-openssl/master/screens/screen_1.png)
 5. Then import <strong>RootCA.crt</strong> to <strong>chrome://settings/certificates?search=https</strong> in tab <strong>Authorities</strong>
-![alt text](https://raw.githubusercontent.com/oleksiivelychko/xdebug-dockerized/master/screens/screen_2.png)
+![alt text](https://raw.githubusercontent.com/oleksiivelychko/generate-openssl/master/screens/screen_2.png)
