@@ -1,4 +1,4 @@
-## Generate local OpenSSL certificates.
+## Generate self-signed OpenSSL certificates.
 
 1. Set script executable
 ```
