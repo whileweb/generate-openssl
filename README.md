@@ -8,7 +8,7 @@ chmod +x generate.sh
 ```
 127.0.0.0 app.local admin.app.local
 ```
-3. Edit path to store generated certificates. Change <strong>CERTSPATH</strong> environment variable value.
+3. Edit path to store generated certificates. Change <strong>CERTSPATH</strong> environment variable value in the script
 ```
 CERTSPATH=$HOME/Documents/test
 ```
