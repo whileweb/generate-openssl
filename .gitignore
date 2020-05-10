@@ -1,2 +1,4 @@
 .idea
+certs
+generate_ssl
 !.gitignore
