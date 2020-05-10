@@ -31,4 +31,4 @@ Usage of ./generate_ssl:
         a string (default "alt_names.ext")
 ```
 4. Then import <strong>RootCA.crt</strong> to <strong>chrome://settings/certificates?search=https</strong> in tab <strong>Authorities</strong>
-![alt text](https://raw.githubusercontent.com/oleksiivelychko/generate-openssl/master/screens/screen.png)
+![alt text](https://raw.githubusercontent.com/oleksiivelychko/generate-openssl/master/screen.png)
