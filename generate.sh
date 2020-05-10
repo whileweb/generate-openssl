@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CERTSPATH=$HOME/Documents/certs
+CERTSPATH=$HOME/Documents/docker/certs
 
 openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout $CERTSPATH/RootCA.key -out $CERTSPATH/RootCA.pem -subj "/C=UA/CN=Localhost-Root-CA"
 openssl x509 -outform pem -in $CERTSPATH/RootCA.pem -out $CERTSPATH/RootCA.crt

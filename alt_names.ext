@@ -4,5 +4,7 @@ keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = app.local
-DNS.2 = admin.app.local
+DNS.1 = herbalclean.local
+DNS.2 = admin.herbalclean.local
+DNS.3 = file.herbalclean.local
+DNS.4 = metinvest.loc
