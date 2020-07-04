@@ -23,12 +23,13 @@ Usage of ./generate_ssl:
         a string (default "Localhost-Certificates")
   -ST string
         a string (default "Kyiv")
-  -crtpath string
-        a string (default "certs")
   -days uint
         a uint16 (default 1024)
   -extpath string
         a string (default "alt_names.ext")
+  -crtpath string
+          a string (default "certs")
 ```
 4. Then import <strong>RootCA.crt</strong> to <strong>chrome://settings/certificates?search=https</strong> in tab <strong>Authorities</strong>
+
 ![alt text](https://raw.githubusercontent.com/oleksiivelychko/generate-openssl/master/screen.png)
