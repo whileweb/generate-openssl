@@ -28,7 +28,7 @@ Usage of ./generate_ssl:
   -extpath string
         a string (default "alt_names.ext")
   -crtpath string
-          a string (default "certs")
+        a string (default "certs")
 ```
 4. Then import <strong>RootCA.crt</strong> to <strong>chrome://settings/certificates?search=https</strong> in tab <strong>Authorities</strong>
 
